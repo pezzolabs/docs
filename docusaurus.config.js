@@ -61,6 +61,8 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      defaultMode: 'dark',
+      disableSwitch: true,
       navbar: {
         title: "Pezzo",
         logo: {
