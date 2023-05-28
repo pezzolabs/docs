@@ -11,16 +11,13 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.pezzo.ai',
+  url: 'https://pezzolabs.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/pezzo',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
+  baseUrl: '/',
   organizationName: 'pezzolabs', // Usually your GitHub org/user name.
   projectName: 'pezzo', // Usually your repo name.
-
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -86,7 +83,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/intro',
               },
             ],
           },
