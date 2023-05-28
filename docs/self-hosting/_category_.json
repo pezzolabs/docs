@@ -1,0 +1,8 @@
+{
+  "label": "Self-hosting",
+  "position": 3,
+  "link": {
+    "type":  "generated-index",
+    "description": "Below are the available methods to start using Pezzo. Choose the one that suits you best."
+  }
+}

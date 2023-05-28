@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 description: "Use Docker Compose to deploy Pezzo on your machine."
 ---
 
