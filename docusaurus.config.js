@@ -13,7 +13,7 @@ const projectName = 'pezzo';
 const config = {
   title: "Pezzo",
   tagline: "AI Development Toolkit",
-  url: `https://${organizationName}.github.io`,
+  url: `https://docs.pezzo.ai`,
   baseUrl: `/`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
