@@ -66,6 +66,7 @@ const config = {
         logo: {
           alt: "Pezzo Logo",
           src: "img/logo.svg",
+          href: "https://docs.pezzo.ai/docs/intro"
         },
         items: [
           {
