@@ -14,7 +14,7 @@ const config = {
   title: "Pezzo",
   tagline: "AI Development Toolkit",
   url: `https://${organizationName}.github.io`,
-  baseUrl: `/${projectName}/`,
+  baseUrl: `/`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
