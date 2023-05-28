@@ -4,6 +4,9 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const organizationName = 'pezzolabs';
+const projectName = 'pezzo';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Pezzo',
@@ -15,8 +18,8 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/pezzo/',
-  organizationName: 'pezzolabs', // Usually your GitHub org/user name.
-  projectName: 'pezzo', // Usually your repo name.
+  organizationName,
+  projectName,
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
@@ -35,11 +38,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
         },
         
         theme: {
@@ -69,9 +71,9 @@ const config = {
           },
          
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            href: `https://github.com/${organizationName}/${projectName}`,
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
@@ -83,7 +85,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/pezzo/docs/intro',
+                to: '/docs/intro',
               },
             ],
           },
@@ -108,14 +110,14 @@ const config = {
             title: 'More',
             items: [
        
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                     {
+                label: "GitHub",
+                href: `https://github.com/${organizationName}/${projectName}`,
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Pezzo, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
