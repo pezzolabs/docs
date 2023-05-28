@@ -1,0 +1,41 @@
+---
+title: "Step 5: Observability & Insights"
+sidebar_position: 5
+---
+
+import HistoryTabImg from "./history-tab.png";
+import InspectImg from "./inspect.png";
+import DashboardImg from "./dashboard.png";
+
+# Step 5: Observability & Insights
+
+Pezzo provides a set of tools to help you monitor and debug your prompts. This includes:
+- Detailed execution history for each prompt
+- Cost overview
+- Useful statistics such as number of executions, average execution duration, costs etc.
+
+:::tip
+**Have an idea?**
+We are always looking to improve Pezzo.
+
+Do you have an idea for a useful metric or graph to display? Perhaps a detail that is missing from the execution history?
+
+Please let us know by creating an issue on [GitHub](https://github.com/pezzolabs/pezzo).
+:::
+
+## Dashboard
+Immediately after selecting a prompt, you will see the **Dashboard** view. Here, you can see useful stats about your prompt.
+
+<img src={DashboardImg} />
+
+
+## Execution history
+Select your prompt and head over to the **History** tab. You will see something like this:
+
+<img src={HistoryTabImg} />
+
+You can inspect each execution by clicking the **Inspect** (magnifying glass) icon, as shown below:
+
+<img src={InspectImg} style={{ maxWidth: 500 }} />
+
+This is extremely powerful. Pezzo helps you understand exactly what went wrong, where and when. You can even tweak the request retroactively and re-run the prompt to see if your changes fix an issue.
