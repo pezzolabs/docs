@@ -1,0 +1,8 @@
+{
+  "label": "Installation",
+  "position": 1,
+  "link": {
+    "type":  "generated-index",
+    "description": "Below are the available methods to install Pezzo. Choose the one that suits you best."
+  }
+}

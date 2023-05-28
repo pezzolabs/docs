@@ -1,0 +1,28 @@
+---
+sidebar_position: 1
+---
+# Introduction
+
+## Overview
+
+Pezzo is a powerful toolkit designed to streamline the process of AI development. It empowers developers and teams to leverage the full potential of AI models in their applications with ease.
+
+## Key Features
+- 🎛️ **Centralized Prompt Management:** Manage all AI prompts in one place for maximum visibility and efficiency.
+
+- 🚀 **Streamlined Prompt Design & Versioning:** Create, edit, test and version promps with ease.
+
+- 🕜 **Instant Deployments:** Pezzo allwos you to publish your prompts instnatly, without requiring a full release cycle.
+
+- 🔍 **Observability**: Access detailed prompt execution history, stats and metrics (duration, prompt cost, completion cost, etc.) for better insights.
+
+- 🛠️ **Troubleshooting:** Effortlessly resolve issues with your prompts. Time travel to retroactively fine-tune failed prompts and commit the fix instantly.
+
+- 💰 **Cost Transparency**: Gain comprehensive cost transparency across all prompts and AI models.
+
+- 💪 **Prompt Consumption:** Reduce code overhead by 90% by consuming your AI prompts using the Pezzo Client, regardless of the model provider.
+
+## Pezzo is for everyone
+Whether you are a technical person or a stakeholder, you can use Pezzo effectively. **We don't believe that AI prompts should be designed in a developer's code editor**. Aside from teh technical issues with this approach, it blocks productivity.
+
+With the rise of AI, this is an exciting opportunity for non-technical stakeholders to be at the spearhead of AI development for their products. Pezzo makes this possible.
