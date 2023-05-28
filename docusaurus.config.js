@@ -14,12 +14,12 @@ const config = {
   url: 'https://pezzolabs.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docs/',
+  baseUrl: '/pezzo/',
   organizationName: 'pezzolabs', // Usually your GitHub org/user name.
   projectName: 'pezzo', // Usually your repo name.
   trailingSlash: false,
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -83,7 +83,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/docs/intro',
+                to: '/pezzo/docs/intro',
               },
             ],
           },
