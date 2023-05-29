@@ -101,11 +101,7 @@ const config = {
             items: [
               {
                 label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://discord.gg/h5nBW5ySqQ",
               },
             ],
           },
@@ -114,7 +110,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: `https://github.com/${organizationName}/${projectName}`,
+                href: `https://github.com/pezzolabs/pezzo`,
               },
             ],
           },
