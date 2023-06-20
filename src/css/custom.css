@@ -4,6 +4,8 @@
  * work well for content-centric websites.
  */
 
+ @import url("./fonts");
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #059669;
@@ -27,4 +29,14 @@
   --ifm-color-primary-lighter: #34d399;
   --ifm-color-primary-lightest: #c4b5fd;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Brockmann", sans-serif;
+  font-weight: 500;
 }
